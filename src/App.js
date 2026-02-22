@@ -12,10 +12,10 @@ const[cartIsShown,setCartIsShown] = useState(false);
     setCartIsShown(false);
   }
 
-
+//comments
   return (
     <CartProvider>
-      {cartIsShown && <div>Cart...</div> }
+      {cartIsShown && <div>Cart...</div> } 
       <Header onShowCard={showCartHandler} />
       <main>
         <Meals />
